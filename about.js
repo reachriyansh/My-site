@@ -4,7 +4,7 @@ var GITHUB_USER = 'reachriyansh';
 var list = document.getElementById('repos');
 var msg = document.getElementById('repoMsg');
 var all = document.getElementById('ghAll');
-all.href = 'https://github.com/' + GITHUB_USER;
+all.href = 'https://github.com/' + reachriyansh;
 
 function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
 
