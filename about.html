@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About · Riyansh</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="about.css">
+</head>
+<body>
+
+<nav>
+  <a class="brand" href="index.html">Riyansh</a>
+  <div class="menu"><a href="index.html">Intro</a><a href="notes.html">Notes</a><a href="about.html" aria-current="page">About Me</a></div>
+  <div class="progress" aria-hidden="true"><i id="bar"></i>
+    <svg id="mini" viewBox="0 0 28 24"><path d="M28 12 L2 5 L7 12 L2 19 Z"/></svg>
+  </div>
+</nav>
+
+<main class="wrap">
+  <header class="head">
+    <h1>About me</h1>
+    <p class="lead">A maths student at IISER Bhopal, with a lifelong pull towards aviation.</p>
+  </header>
+
+  <section class="sec">
+    <h2 class="reveal">Study</h2>
+    <div class="row reveal"><h3>Where</h3><p>BS-MS at IISER Bhopal, studying Mathematics. My pre-major covers Mathematics, Physics and Chemistry.</p></div>
+    <div class="row reveal"><h3>What pulls me in</h3><p>Add a few lines on the areas and problems of maths you enjoy most, and why.</p></div>
+    <div class="row reveal"><h3>What I’m looking for</h3><p>Research projects, reading groups and collaborations. If you’re working on something where a curious maths student could help, write to me.</p></div>
+  </section>
+
+  <section class="sec">
+    <h2 class="reveal">Code</h2>
+    <p class="sub">My latest repositories, pulled live from GitHub.</p>
+    <p id="repoMsg" class="note"></p>
+    <ul id="repos" class="list"></ul>
+    <a id="ghAll" class="more" href="https://github.com/reachriyansh" target="_blank" rel="noopener">See everything on GitHub</a>
+  </section>
+
+  <section class="sec">
+    <h2 class="reveal">Aviation</h2>
+    <div class="row reveal"><h3>Why planes</h3><p>Tell the story of how it started: a first flight, a favourite aircraft, a route you’d love to fly.</p></div>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="rule"></div>
+  <h2 class="reveal">Let’s talk.</h2>
+    <a class="mail reveal" href="mailto:reachriyansh@gmail.com">reachriyansh@gmail.com</a>
+  <div class="links">
+    <a href="https://github.com/reachriyansh"target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a href="https://www.linkedin.com/in/reachriyansh/"target="_blank" rel="noopener noreferrer" >LinkedIn</a>
+    <a href="https://www.instagram.com/reachriyansh/" target="_blank" rel="noopener noreferrer">Instagram</a>
+  </div>
+  <p class="legal">© <span id="yr"></span> Riyansh. BS-MS, IISER Bhopal.</p>
+</footer>
+
+<script src="common.js"></script>
+<script src="about.js"></script>
+</body>
+</html>

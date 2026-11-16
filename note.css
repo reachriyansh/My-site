@@ -1,0 +1,7 @@
+.tools{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;margin-bottom:32px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:inherit;font-size:14px;padding:8px 18px;border-radius:980px;border:1px solid var(--faint);background:#fff;color:var(--ink);cursor:pointer;transition:border-color .2s,background .2s,color .2s}
+.chip:hover{border-color:var(--gold)}
+.chip[aria-pressed="true"]{background:var(--red);border-color:var(--red);color:#fff}
+#q{font:inherit;font-size:15px;padding:9px 18px;border-radius:980px;border:1px solid var(--faint);min-width:min(100%,260px);transition:border-color .2s}
+#q:focus{border-color:var(--red)}

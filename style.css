@@ -1,0 +1,29 @@
+/* Nav + flight progress */
+
+  /* Intro */
+  .intro{height:230vh;position:relative}
+  .intro .stage{position:sticky;top:0;height:100vh;display:grid;place-items:center;overflow:hidden;text-align:center;padding:0 24px}
+  .intro svg.path{position:absolute;inset:0;width:100%;height:100%}
+  .intro .copy{position:relative;will-change:transform,opacity}
+  .intro h1{font-size:clamp(56px,11vw,150px);font-weight:700;letter-spacing:-.045em;line-height:.95}
+  .intro p{margin-top:24px;font-size:clamp(18px,2.2vw,28px);font-weight:300;color:var(--muted);letter-spacing:-.01em}
+  .intro .hint{position:absolute;bottom:32px;left:0;right:0;font-size:13px;color:var(--muted);transition:opacity .3s}
+
+  /* Statement: words light up while scrolling */
+  .statement{height:260vh;position:relative}
+  .statement .stage{position:sticky;top:0;height:100vh;display:grid;place-items:center;padding:0 max(24px,8vw)}
+  .statement p{max-width:18ch;font-size:clamp(34px,6vw,84px);font-weight:700;letter-spacing:-.035em;line-height:1.08}
+  .statement p{max-width:22ch}
+  .statement .w{color:var(--faint);transition:color .25s}
+  .statement .w.on{color:var(--ink)}
+  .statement .w.red.on{color:var(--red)}
+
+  /* What I do */
+  .work{padding:18vh max(24px,8vw);max-width:1200px;margin:0 auto}
+  .work h2{font-size:clamp(32px,5vw,64px);font-weight:700;letter-spacing:-.035em;margin-bottom:8vh}
+
+  /* Footer */
+
+  @media (prefers-reduced-motion:reduce){
+    .statement .w{transition:none}
+  }
