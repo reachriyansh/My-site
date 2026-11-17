@@ -4,11 +4,11 @@ var GITHUB_USER = 'reachriyansh';
 var list = document.getElementById('repos');
 var msg = document.getElementById('repoMsg');
 var all = document.getElementById('ghAll');
-all.href = 'https://github.com/' + reachriyansh;
+all.href = 'https://github.com/' + GITHUB_USER;
 
 function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
 
-if (GITHUB_USER === 'reachriyansh') {
+if (GITHUB_USER === 'your-username') {
   msg.textContent = 'Set GITHUB_USER at the top of about.js to show your repositories here.';
 } else {
   fetch('https://api.github.com/users/' + encodeURIComponent(GITHUB_USER) + '/repos?sort=updated&per_page=30')
