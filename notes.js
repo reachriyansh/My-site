@@ -7,7 +7,7 @@
 var NOTES = [
   {t:'Epsilon–delta, made intuitive', s:'maths', sem:3, d:'Why the definition of a limit looks the way it does, with pictures first and symbols second.', href:'#'},
   {t:'Groups and symmetry: a first look', s:'maths', sem:3, d:'From rotations of a square to the axioms, and what they are good for.', href:'#'},
-  {t:'Electrodynamics', s:'physics', sem:3, d:'Physics of moving charges and the invisible fields they create.', href:'file:///C:/Users/Riyan/OneDrive/Documents/Image-Line/CODING/web%20dev/riyansh/Ed.pdf'},
+  {t:'Electrodynamics', s:'physics', sem:3, d:'Physics of moving charges and the invisible fields they create.', href:'Ed.pdf'},
   {t:'Hückel theory on one page', s:'chemistry', sem:3, d:'Estimating π-electron energies of conjugated molecules with a small matrix.', href:'#'}
 ];
 
