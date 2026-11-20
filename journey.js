@@ -1,10 +1,10 @@
 // Edit these stops: when = small label, t = title, d = description. Add or remove freely.
 var JOURNEY = [
-  {when:'Before IISER', t:'Where it started', d:'Add the beginning here: what first pulled you towards planes, maths and science.'},
+  {when:'Before IISER', t:'Where it started', d:'“It started with a fascination for flight, and grew into a love for the mathematics and science that make the impossible take off.”'},
   {when:'BS-MS at IISER Bhopal', t:'Maths, with Physics and Chemistry', d:'Started the BS-MS programme, with a pre-major in Mathematics, Physics and Chemistry.'},
-  {when:'Semesters 1 and 2', t:'The first year', d:'Add what you learned and enjoyed most, and what surprised you.'},
-  {when:'Semester 3 · now', t:'Writing, building, sharing', d:'Writing notes in LaTeX, building this site, and starting projects in Python.'},
-  {when:'Next', t:'Semester 4 and beyond', d:'A Fourier tool that splits sound into its sine waves, terrain mapping for Earth research, and more notes.'}
+  {when:'Semesters 1 and 2', t:'The first year', d:'Meeting new people and exploring life ,Intership at Bharat Space Education Research Centre'},
+  {when:'Semester 3 · now', t:'Writing, building, sharing', d:'Writing notes in LaTeX, building this site,building RC plane and projects in Python.'},
+  {when:'Next', t:'Semester 4 and beyond', d:'Experience loading.....'}
 ];
 
 function esc(s){ return String(s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
