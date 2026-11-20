@@ -75,3 +75,10 @@ footer .mail:hover{color:var(--red)}
   html{scroll-behavior:auto}
   .reveal{opacity:1;transform:none;transition:none}
 }
+
+/* Dark mode: black and gold */
+:root[data-theme="dark"]{--head:#e3bd6b;--gold-grad:linear-gradient(135deg,#f6e2a6 0%,#d4a85a 45%,#f0cf84 100%)}
+:root[data-theme="dark"] :is(.head h1,.intro h1,footer h2){background:var(--gold-grad);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;padding-bottom:.1em;width:fit-content}
+:root[data-theme="dark"] .intro h1{margin-inline:auto}
+:root[data-theme="dark"] :is(.sec h2,.work h2,.explore h2,.stop h3){color:var(--head)}
+:root[data-theme="dark"] .statement .w.on{color:var(--head)}
