@@ -42,3 +42,13 @@
   .intro .hint{bottom:max(28px,env(safe-area-inset-bottom))}
   .statement p{font-size:clamp(32px,9.6vw,56px)}
 }
+
+/* Explore links at the bottom of the intro page */
+.explore{padding-top:4vh;padding-bottom:12vh}
+.explore h2{font-size:clamp(32px,5vw,64px);font-weight:700;letter-spacing:-.035em;margin-bottom:6vh}
+.explore .meta{font-size:28px;color:var(--muted);transition:color .2s,transform .3s}
+.explore .list a:hover .meta{color:var(--red);transform:translateX(6px)}
+@media (max-width:560px){
+  .explore .list a{grid-template-columns:1fr auto}
+  .explore .list .meta{grid-column:2;grid-row:1 / span 2}
+}
