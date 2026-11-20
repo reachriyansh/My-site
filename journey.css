@@ -5,7 +5,7 @@
 .stop{position:relative;max-width:640px;padding-bottom:14vh;opacity:.35;transition:opacity .5s}
 .stop:last-child{padding-bottom:0}
 .stop.on{opacity:1}
-.stop::before{content:"";position:absolute;left:-45px;top:6px;width:12px;height:12px;border-radius:50%;background:#fff;border:2px solid var(--faint);transition:border-color .4s,background .4s}
+.stop::before{content:"";position:absolute;left:-45px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--bg);border:2px solid var(--faint);transition:border-color .4s,background .4s}
 .stop.on::before{border-color:var(--red);background:var(--red)}
 .when{font-size:14px;font-weight:600;color:var(--muted);margin-bottom:6px}
 .stop h3{font-size:clamp(26px,3.6vw,44px);font-weight:700;letter-spacing:-.035em;line-height:1.1}

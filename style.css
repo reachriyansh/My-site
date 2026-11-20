@@ -52,3 +52,7 @@
   .explore .list a{grid-template-columns:1fr auto}
   .explore .list .meta{grid-column:2;grid-row:1 / span 2}
 }
+
+/* Theme-aware intro artwork */
+#route{stroke:var(--route)}
+#plane path{fill:var(--gold)}
