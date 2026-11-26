@@ -8,7 +8,7 @@ var NOTES = [
   {t:'Epsilon–delta, made intuitive', s:'maths', sem:3, d:'Why the definition of a limit looks the way it does, with pictures first and symbols second.', href:'#'},
   {t:'Groups and symmetry: a first look', s:'maths', sem:3, d:'From rotations of a square to the axioms, and what they are good for.', href:'#'},
   {t:'Electrodynamics', s:'physics', sem:3, d:'Physics of moving charges and the invisible fields they create.', href:'Ed.pdf'},
-  {t:'Hückel theory on one page', s:'chemistry', sem:3, d:'Estimating π-electron energies of conjugated molecules with a small matrix.', href:'#'}
+  {t:'Physical Chemistry', s:'chemistry', sem:3, d:'Energy drives change, equilibrium balances it, and kinetics tells you how fast it happens.', href:'PC.pdf'}
 ];
 
 var LABEL = {maths:'Mathematics', physics:'Physics', chemistry:'Chemistry'};
