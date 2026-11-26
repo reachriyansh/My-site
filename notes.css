@@ -1,0 +1,11 @@
+.tools{display:flex;flex-wrap:wrap;gap:16px 24px;align-items:flex-end;justify-content:space-between;margin-bottom:32px}
+.filters{display:flex;flex-direction:column;gap:12px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font:inherit;font-size:14px;padding:8px 18px;border-radius:980px;border:1px solid var(--faint);background:var(--bg);color:var(--ink);cursor:pointer;transition:border-color .2s,background .2s,color .2s}
+.chip:hover{border-color:var(--gold)}
+.chip[aria-pressed="true"]{background:var(--red);border-color:var(--red);color:#fff}
+#q{background:var(--bg);color:var(--ink);font:inherit;font-size:15px;padding:9px 18px;border-radius:980px;border:1px solid var(--faint);min-width:min(100%,260px);transition:border-color .2s}
+#q:focus{border-color:var(--red)}
+.list .group{padding:44px 0 14px;border-bottom:1px solid var(--faint)}
+.list .group:first-child{padding-top:20px}
+.list .group h2{font-size:20px;font-weight:700;letter-spacing:-.02em;padding-left:14px;border-left:3px solid var(--gold)}

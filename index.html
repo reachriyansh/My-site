@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Riyansh, a BS-MS student at IISER Bhopal. Notes in maths, physics and chemistry, projects in Python, and an interactive particle lab.">
+<meta name="theme-color" content="#d71921">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Riyansh · Maths, Physics, Chemistry and Aviation">
+<meta property="og:description" content="Riyansh, a BS-MS student at IISER Bhopal. Notes in maths, physics and chemistry, projects in Python, and an interactive particle lab.">
+<meta property="og:url" content="https://reachriyansh.github.io/My-site/">
+<meta property="og:image" content="https://reachriyansh.github.io/My-site/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<title>Riyansh · Maths, Physics, Chemistry and Aviation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="style.css">
+<script src="theme.js"></script>
+</head>
+<body>
+
+<nav>
+  <a class="brand" href="index.html">Riyansh</a>
+  <div class="menu"><a href="index.html" aria-current="page">Intro</a><a href="notes.html">Notes</a><a href="journey.html">Journey</a><a href="projects.html">Projects</a><a href="lab.html">R-Lab</a><a href="about.html">About Me</a></div>
+  <button class="theme" id="theme" type="button" aria-label="Switch to dark mode" aria-pressed="false"><svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg><svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button>
+  <div class="progress" aria-hidden="true"><i id="bar"></i>
+    <svg id="mini" viewBox="0 0 28 24"><path d="M28 12 L2 5 L7 12 L2 19 Z"/></svg>
+  </div>
+</nav>
+
+<main id="top">
+  <!-- Intro -->
+  <section class="intro" id="intro">
+    <div class="stage">
+      <svg class="path" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <path id="route" d="M-40 540 C 260 560, 380 120, 700 200 S 940 60, 1060 20" fill="none" stroke="#f0d9da" stroke-width="1.5"/>
+        <path id="trail" d="M-40 540 C 260 560, 380 120, 700 200 S 940 60, 1060 20" fill="none" stroke="#d71921" stroke-width="1.5" stroke-linecap="round"/>
+        <g id="plane"><path d="M18 0 L-10 -4 L-6 0 L-10 4 Z M4 0 L-6 -15 L-9 -15 L-3 0 L-9 15 L-6 15 Z" fill="#b8924a"/></g>
+      </svg>
+      <div class="copy" id="introCopy">
+        <h1>Riyansh</h1>
+        <p>Aviation. Built properly.</p>
+        <a class="btn cvbtn" href="cv.pdf">Download CV</a>
+      </div>
+      <div class="hint" id="hint">Scroll to take off</div>
+    </div>
+  </section>
+
+  <!-- Statement -->
+  <section class="statement" id="statement">
+    <div class="stage">
+      <p id="statementText">I spend my days around aircraft and my nights thinking about them. This is where I keep what I’ve done, what I’ve learned, and where I’m headed next.</p>
+    </div>
+  </section>
+
+  <!-- What I do (edit these) -->
+  <section class="work" id="work">
+    <h2 class="reveal">A little more about me.</h2>
+    <div class="row reveal"><h3>Background</h3><p>I’m a Mathematics major at IISER Bhopal with a deep-rooted passion for aviation. My interest started with aerodynamics—realizing that the complex math I study is the exact same math that keeps aircraft in the sky. That curiosity drove me to design and build my own RC plane from scratch.</p></div>
+    <div class="row reveal"><h3>What I do now</h3><p>Right now, I’m focused on building a strong foundation in applied mathematics and physics while pursuing independent aerospace projects. I spend my free time researching flight mechanics, working on aerodynamic designs, and connecting theoretical math to real-world engineering.</p></div>
+    <div class="row reveal"><h3>What I’m into</h3><p>I am fascinated by aircraft design and the computational side of aviation. I’m a huge fan of the engineering behind the B-787 and love tracking flights on Flightradar24. Ultimately, I’m working toward a long-term career in aerospace engineering and space tech.</p></div>
+  </section>
+
+  <!-- Explore: easy navigation at the bottom of the intro page -->
+  <section class="wrap explore" id="explore">
+    <h2 class="reveal">Explore.</h2>
+    <ul class="list reveal">
+      <li><a href="notes.html"><h3>Notes</h3><p>Maths, Physics and Chemistry, semester by semester.</p><span class="meta" aria-hidden="true">→</span></a></li>
+      <li><a href="journey.html"><h3>Journey</h3><p>How I got here, and where I’m headed.</p><span class="meta" aria-hidden="true">→</span></a></li>
+      <li><a href="projects.html"><h3>Projects</h3><p>Python tools, web experiments and what I’m building next.</p><span class="meta" aria-hidden="true">→</span></a></li>
+      <li><a href="lab.html"><h3>Lab</h3><p>Particles, maths and aviation in motion. Best on a big screen.</p><span class="meta" aria-hidden="true">→</span></a></li>
+      <li><a href="about.html"><h3>About me</h3><p>Who I am, what I’m looking for, and my code.</p><span class="meta" aria-hidden="true">→</span></a></li>
+    </ul>
+  </section>
+</main>
+
+<!-- Footer / contact -->
+<footer id="contact">
+  <div class="rule"></div>
+  <h2 class="reveal">Let’s talk.</h2>
+  <a class="mail reveal" href="mailto:reachriyansh@gmail.com">reachriyansh@gmail.com</a>
+  <div class="links">
+    <a href="cv.pdf">CV</a>
+    <a href="https://github.com/reachriyansh" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/reachriyansh" rel="noopener">LinkedIn</a>
+    <a href="https://www.instagram.com/about__._ri._/" rel="noopener">Instagram</a>
+  </div>
+  <p class="legal">© <span id="yr"></span> Riyansh · BS-MS, IISER Bhopal · <a href="privacy.html">Privacy</a> · Updated <span id="upd"></span></p>
+</footer>
+
+<script src="common.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

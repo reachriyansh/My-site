@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://reachriyansh.github.io/My-site/sitemap.xml

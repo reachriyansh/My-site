@@ -1,0 +1,6 @@
+.head p.lead{max-width:30ch}
+#repoMsg{display:block}
+#repoMsg:empty{display:none}
+.more{display:inline-block;margin-top:28px;font-size:15px;border-bottom:1px solid var(--gold);padding-bottom:2px;transition:color .2s}
+.more:hover{color:var(--red)}
+.me{display:block;width:132px;height:132px;border-radius:50%;object-fit:cover;margin-bottom:28px;border:2px solid var(--gold)}

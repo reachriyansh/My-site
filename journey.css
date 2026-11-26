@@ -1,0 +1,13 @@
+.tl{position:relative;padding:4vh 0 8vh 48px;--p:0}
+.tl::before{content:"";position:absolute;left:8px;top:0;bottom:0;width:2px;background:var(--faint);border-radius:2px}
+.fill{position:absolute;left:8px;top:0;width:2px;height:calc(var(--p) * 100%);background:linear-gradient(var(--gold),var(--red));border-radius:2px}
+.plane{position:absolute;left:1px;top:calc(var(--p) * 100%);width:16px;height:14px;transform:translateY(-50%) rotate(90deg);fill:var(--red)}
+.stop{position:relative;max-width:640px;padding-bottom:14vh;opacity:.35;transition:opacity .5s}
+.stop:last-child{padding-bottom:0}
+.stop.on{opacity:1}
+.stop::before{content:"";position:absolute;left:-45px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--bg);border:2px solid var(--faint);transition:border-color .4s,background .4s}
+.stop.on::before{border-color:var(--red);background:var(--red)}
+.when{font-size:14px;font-weight:600;color:var(--muted);margin-bottom:6px}
+.stop h3{font-size:clamp(26px,3.6vw,44px);font-weight:700;letter-spacing:-.035em;line-height:1.1}
+.stop p{margin-top:14px;font-size:clamp(18px,1.9vw,22px);font-weight:300;color:var(--muted)}
+@media (prefers-reduced-motion:reduce){.stop,.stop::before{transition:none}}
